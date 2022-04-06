@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Layout/>
+      <Layout />
       <Component {...pageProps} />
       <style jsx global>{`
         a {
